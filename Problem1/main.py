@@ -15,7 +15,6 @@ def extract_coords(image):
 
 def solve_puzzle(folder_path):
     puzzle_images = []
-    coords = []
     for filename in os.listdir(folder_path):
         image = cv2.imread(os.path.join(folder_path, filename))
         puzzle_images.append(image)

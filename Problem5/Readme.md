@@ -1,5 +1,6 @@
 # To Run
 
+Make your own .env with the keys in .env_example
 pip install -r requirements.txt
 uvicorn main:app --reload
 
